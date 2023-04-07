@@ -72,7 +72,7 @@ function Meme() {
             </div>
 
             <div className='meme--main' id='meme--main'>
-                <img src={meme.url} key={1} className='meme--main-img'/>
+                <img src={meme.url} alt="meme" key={1} className='meme--main-img'/>
                 <h1 className='meme--main-top'>{meme.topText}</h1>
                 <h1 className='meme--main-bottom'>{meme.bottomText}</h1>
             </div>
