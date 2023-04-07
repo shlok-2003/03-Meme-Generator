@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+.header--main {
+    height: 65px;   
+    
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    
+    padding: 0.5rem 0.2rem;
+
+    font-family: 'Karla';
+}
+
+.header--img {
+    height: 3rem;
+    width: 3.5rem;
+    margin: auto 0.5rem;
+
+    background-color: transparent
+}
+
+.header--mainText {
+    color : white;
+    margin: auto 0 auto 0.8rem;
+
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.header--authorName {
+    margin: auto 0 auto auto;
+    margin-right: 2rem;
+
+    color : white;
+    text-transform: uppercase;
+}
