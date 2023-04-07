@@ -11,6 +11,14 @@ function Meme() {
     const [allMeme, setAllMeme] = useState([])
 
     useEffect(() => {
+        //! Async Function
+        // async function getInfo() {
+        //     const res = await fetch("https://api.imgflip.com/get_memes")
+        //     const file = await res.json()
+        //     setAllMeme(file.data.memes)
+        // }
+        // getInfo()
+
         fetch("https://api.imgflip.com/get_memes")
             .then(res => res.json())
             .then(file => setAllMeme(file.data.memes))
